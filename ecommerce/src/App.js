@@ -48,7 +48,7 @@ function App() {
   return (
     <div>  
        <Routes>
-          <Route path="/" element={ <Home />} />
+          <Route path="/Ecommerce-product-listing" element={ <Home />} />
           <Route path="/product" element={  productStatus ? <DetailedProduct /> : <Navigate to="/"/> } />
           <Route path="/wishlist" element={ wishlistStatus ? <Wishlist/> : <Navigate to="/"/> }/>
           <Route path="/cart" element={ cartStatus ? <Cart/> : <Navigate to="/"/>  }/>
